@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fast Notes</string>
+    <string name="text_title">Olá</string>
+    <string name="text_msg">Tenha um ótimo dia!</string>
+    <string name="text_decription">Descrição</string>
+    <string name="text_title_task">Title</string>
+    <string name="txt_login">Login</string>
+    <string name="place_holder_username">Nome</string>
+    <string name="txt_btn_entrar">Entrar</string>
+    <string name="text_cadastro">Cadastro</string>
+    <string name="text_salvar">Salvar</string>
+    <string name="text_cancelar">Cancelar</string>
+</resources>

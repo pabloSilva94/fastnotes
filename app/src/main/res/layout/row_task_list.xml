@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/rounded_background"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/text_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/urbanist_bold"
+        android:textSize="20sp"
+        android:textColor="@color/textLight"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/text_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/urbanist"
+        android:padding="10dp"
+        android:textColor="@color/altLight"
+        android:textSize="16sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:padding="5dp"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_editTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6750a4"
+            android:backgroundTint="#366750A4"
+            android:layout_marginRight="5dp"
+            android:drawableLeft="@drawable/ic_edit"
+            android:text="Editar"/>
+        <Button
+            android:id="@+id/btn_deleteTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#36FFA69F"
+            android:textColor="#FF1100"
+            android:drawableLeft="@drawable/ic_trash"
+            android:text="Deletar"/>
+    </LinearLayout>
+</LinearLayout>

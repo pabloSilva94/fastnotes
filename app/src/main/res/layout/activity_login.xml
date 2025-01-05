@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".views.LoginActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_login"
+        android:textSize="30sp"
+        android:fontFamily="@font/urbanist_bold"
+        android:textColor="@color/textLight"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/edit_username"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded_background"
+        android:drawableStart="@drawable/ic_user"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/urbanist_medium"
+        android:hint="@string/place_holder_username"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textColor="@color/textLight" />
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_background"
+        android:drawableStart="@drawable/ic_locker"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/urbanist_medium"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="@color/textLight" />
+    <CheckBox
+        android:id="@+id/checkbox_login"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/urbanist_bold"
+        android:textColor="@color/textLight"
+        android:text="Mantenha conectado"/>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_btn_entrar"
+        android:textColor="#3F51B5"
+        android:backgroundTint="#363F51B5"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/btn_createARegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Criar uma conta"
+        android:textSize="13sp"
+        android:fontFamily="@font/urbanist"
+        android:textColor="@color/textLight"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+</LinearLayout>

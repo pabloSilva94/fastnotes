@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#f1f1f1</color>
+    <color name="textLight">#000A42</color>
+    <color name="altLight">#838383</color>
+    <color name="status_bar_color">#EBEBEB</color>
+    <color name="colorPrimary">#212121</color>
+</resources>

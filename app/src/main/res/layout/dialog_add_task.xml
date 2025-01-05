@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fbfaff"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_title"
+        android:drawablePadding="8dp"
+        android:background="@drawable/rounded_background"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/text_title_task"
+        android:fontFamily="@font/urbanist_bold"
+        android:textColor="@color/textLight"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_description"
+        android:textColor="@color/altLight"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_decription"
+        android:inputType="textMultiLine"
+        android:gravity="start|top"
+        android:lines="5"
+        android:maxLines="5"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:padding="10dp"
+        android:fontFamily="@font/urbanist"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingTop="16dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#36FFA69F"
+            android:textColor="#FF1100"
+            android:text="@string/text_cancelar" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textColor="#6750a4"
+            android:backgroundTint="#366750A4"
+            android:text="@string/text_salvar" />
+    </LinearLayout>
+</LinearLayout>
